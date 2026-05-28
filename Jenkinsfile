@@ -10,7 +10,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git 'PASTE_YOUR_GITHUB_REPO_URL'
+                git 'https://github.com/ankitanallamilli/Organic-Fruits.git'
             }
         }
 
